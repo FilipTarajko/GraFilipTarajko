@@ -1,0 +1,21 @@
+[remap]
+
+importer="wav"
+type="AudioStreamSample"
+path="res://.import/466998__bone666138__8-bit-video-game-fight-music.wav-bd00bc7d0a3a5747fda22ceecdc17c5d.sample"
+
+[deps]
+
+source_file="res://sounds/466998__bone666138__8-bit-video-game-fight-music.wav"
+dest_files=[ "res://.import/466998__bone666138__8-bit-video-game-fight-music.wav-bd00bc7d0a3a5747fda22ceecdc17c5d.sample" ]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop=false
+compress/mode=0

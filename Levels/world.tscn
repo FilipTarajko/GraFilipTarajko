@@ -1,0 +1,46 @@
+[gd_scene load_steps=11 format=2]
+
+[ext_resource path="res://scenes/charactersDB.gd" type="Script" id=1]
+[ext_resource path="res://graphics/Background8.png" type="Texture" id=2]
+[ext_resource path="res://Characters/player.tscn" type="PackedScene" id=3]
+[ext_resource path="res://Characters/enemy1.tscn" type="PackedScene" id=4]
+[ext_resource path="res://Characters/enemy2.tscn" type="PackedScene" id=5]
+[ext_resource path="res://Characters/enemy3.tscn" type="PackedScene" id=6]
+[ext_resource path="res://Characters/enemy4.tscn" type="PackedScene" id=7]
+[ext_resource path="res://Characters/enemy5.tscn" type="PackedScene" id=8]
+[ext_resource path="res://Characters/boss1.tscn" type="PackedScene" id=9]
+[ext_resource path="res://Characters/BossMageDeathSound.tscn" type="PackedScene" id=10]
+
+[node name="Node2D" type="Node2D"]
+
+[node name="charactersDB" type="Node" parent="."]
+script = ExtResource( 1 )
+
+[node name="Sprite" type="Sprite" parent="."]
+position = Vector2( 4463.06, 557.359 )
+scale = Vector2( 8, 8 )
+z_index = -2
+texture = ExtResource( 2 )
+offset = Vector2( -270.25, -50.75 )
+
+[node name="Player" parent="." instance=ExtResource( 3 )]
+
+[node name="Enemy1" parent="." instance=ExtResource( 4 )]
+position = Vector2( -3840.53, -3430.01 )
+
+[node name="Enemy2" parent="." instance=ExtResource( 5 )]
+position = Vector2( -4713.78, -2668.67 )
+
+[node name="Enemy3" parent="." instance=ExtResource( 6 )]
+position = Vector2( -4540.19, -1523.25 )
+
+[node name="Enemy4" parent="." instance=ExtResource( 7 )]
+position = Vector2( -2349.1, -1704.97 )
+
+[node name="Enemy5" parent="." instance=ExtResource( 8 )]
+position = Vector2( -2399.28, -3145.6 )
+
+[node name="BossMage" parent="." instance=ExtResource( 9 )]
+position = Vector2( 2131.09, -63.6005 )
+
+[node name="BossMageDeathSound" parent="." instance=ExtResource( 10 )]

@@ -1,0 +1,21 @@
+[remap]
+
+importer="wav"
+type="AudioStreamSample"
+path="res://.import/384915__ali-6868__bow-release-bow-and-arrow.wav-0720fce74776c03f37095b0a24080c87.sample"
+
+[deps]
+
+source_file="res://sounds/384915__ali-6868__bow-release-bow-and-arrow.wav"
+dest_files=[ "res://.import/384915__ali-6868__bow-release-bow-and-arrow.wav-0720fce74776c03f37095b0a24080c87.sample" ]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=true
+edit/normalize=true
+edit/loop=false
+compress/mode=0

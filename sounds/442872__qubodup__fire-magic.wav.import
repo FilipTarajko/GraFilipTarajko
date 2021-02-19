@@ -1,0 +1,21 @@
+[remap]
+
+importer="wav"
+type="AudioStreamSample"
+path="res://.import/442872__qubodup__fire-magic.wav-305f917fc171f87902fd1bb7794ae30d.sample"
+
+[deps]
+
+source_file="res://sounds/442872__qubodup__fire-magic.wav"
+dest_files=[ "res://.import/442872__qubodup__fire-magic.wav-305f917fc171f87902fd1bb7794ae30d.sample" ]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop=false
+compress/mode=0

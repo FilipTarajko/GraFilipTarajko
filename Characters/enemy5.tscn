@@ -1,0 +1,34 @@
+[gd_scene load_steps=8 format=2]
+
+[ext_resource path="res://codes/enemy5.gd" type="Script" id=1]
+[ext_resource path="res://graphics/outline.shader" type="Shader" id=2]
+[ext_resource path="res://graphics/enemy5.png" type="Texture" id=3]
+[ext_resource path="res://scenes/HealthBar.tscn" type="PackedScene" id=4]
+[ext_resource path="res://codes/HealthBar.gd" type="Script" id=5]
+
+[sub_resource type="ShaderMaterial" id=1]
+shader = ExtResource( 2 )
+shader_param/width = 0.2
+shader_param/outline_color = null
+
+[sub_resource type="CircleShape2D" id=2]
+radius = 50.0
+
+[node name="Enemy5" type="KinematicBody2D"]
+scale = Vector2( 0.8, 0.8 )
+collision_layer = 4
+script = ExtResource( 1 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="Sprite" type="Sprite" parent="."]
+material = SubResource( 1 )
+scale = Vector2( 10, 10 )
+texture = ExtResource( 3 )
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+shape = SubResource( 2 )
+
+[node name="TextureProgress" parent="." instance=ExtResource( 4 )]
+script = ExtResource( 5 )

@@ -1,0 +1,21 @@
+[gd_resource type="Resource" load_steps=2 format=2]
+
+[ext_resource path="res://CharacterStats.gd" type="Script" id=1]
+
+[resource]
+script = ExtResource( 1 )
+character_name = "Wizard"
+movespeed = 400
+maxhp = 300
+hpregen = 20
+maxmp = 200
+mpregen = 5
+weaponspeed = 1200
+weaponrange = 500
+attspd = 4
+bullets = 10
+angular = 30
+abilitycooldown = 5
+invisibilitytime = 2
+abilitymanacost = 50
+
